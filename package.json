@@ -2,9 +2,9 @@
   "name": "boke",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/pjw521/boke/issues"
   },
-  "homepage": "https://github.com/pjw521/boke#readme"
+  "homepage": "https://github.com/pjw521/boke#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.2",
+    "multiparty": "^4.2.1"
+  }
 }
